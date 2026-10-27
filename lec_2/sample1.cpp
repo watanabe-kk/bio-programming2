@@ -3,8 +3,12 @@
 using namespace std;
 
 //この部分を適切に実装せよ。
-Double HammingDistance(string a,string, b){
-    if 
+int HammingDistance(string a,string b){
+    if(a.size()!=b.size()){
+        return -1;
+    }else{
+        
+    }
 }
 
 int main(void){
