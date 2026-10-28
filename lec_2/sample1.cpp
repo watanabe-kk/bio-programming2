@@ -4,11 +4,17 @@ using namespace std;
 
 //この部分を適切に実装せよ。
 int HammingDistance(string a,string b){
+    int count=0;
     if(a.size()!=b.size()){
         return -1;
     }else{
-        
+        for(int i=0;i<6;i++){
+            if(a[i]!=b[i]){
+                count+=1;
+            }
+        }
     }
+    return count;
 }
 
 int main(void){
